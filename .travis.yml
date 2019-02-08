@@ -171,7 +171,7 @@ install:
     - source ci-helpers/travis/setup_conda.sh
 
 script:
-    - pip install numpy==1.14.6
+    - pip install numpy==1.15.4
     - $MAIN_CMD $SETUP_CMD
 
 after_success:
